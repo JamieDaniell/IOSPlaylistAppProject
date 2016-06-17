@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		551A222E1D0B43140099BDB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551A222D1D0B43140099BDB5 /* Images.xcassets */; };
+		551A22301D0C34880099BDB5 /* MusicLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551A222F1D0C34880099BDB5 /* MusicLibrary.swift */; };
+		551A22321D0C35C10099BDB5 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551A22311D0C35C10099BDB5 /* Playlist.swift */; };
 		551A321B1D072CC200C60E4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551A321A1D072CC200C60E4E /* AppDelegate.swift */; };
-		551A321D1D072CC200C60E4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551A321C1D072CC200C60E4E /* ViewController.swift */; };
+		551A321D1D072CC200C60E4E /* PlaylistMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551A321C1D072CC200C60E4E /* PlaylistMasterViewController.swift */; };
 		551A32201D072CC200C60E4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551A321E1D072CC200C60E4E /* Main.storyboard */; };
 		551A32221D072CC200C60E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551A32211D072CC200C60E4E /* Assets.xcassets */; };
 		551A32251D072CC200C60E4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551A32231D072CC200C60E4E /* LaunchScreen.storyboard */; };
+		551A322D1D076AE900C60E4E /* PlaylistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551A322C1D076AE900C60E4E /* PlaylistDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		551A222D1D0B43140099BDB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		551A222F1D0C34880099BDB5 /* MusicLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicLibrary.swift; sourceTree = "<group>"; };
+		551A22311D0C35C10099BDB5 /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 		551A32171D072CC100C60E4E /* Algorhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorhythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		551A321A1D072CC200C60E4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		551A321C1D072CC200C60E4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		551A321C1D072CC200C60E4E /* PlaylistMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistMasterViewController.swift; sourceTree = "<group>"; };
 		551A321F1D072CC200C60E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		551A32211D072CC200C60E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		551A32241D072CC200C60E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		551A32261D072CC200C60E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		551A322C1D076AE900C60E4E /* PlaylistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				551A321A1D072CC200C60E4E /* AppDelegate.swift */,
-				551A321C1D072CC200C60E4E /* ViewController.swift */,
+				551A321C1D072CC200C60E4E /* PlaylistMasterViewController.swift */,
+				551A322C1D076AE900C60E4E /* PlaylistDetailViewController.swift */,
+				551A222F1D0C34880099BDB5 /* MusicLibrary.swift */,
+				551A22311D0C35C10099BDB5 /* Playlist.swift */,
 				551A321E1D072CC200C60E4E /* Main.storyboard */,
+				551A222D1D0B43140099BDB5 /* Images.xcassets */,
 				551A32211D072CC200C60E4E /* Assets.xcassets */,
 				551A32231D072CC200C60E4E /* LaunchScreen.storyboard */,
 				551A32261D072CC200C60E4E /* Info.plist */,
@@ -96,6 +108,7 @@
 				TargetAttributes = {
 					551A32161D072CC100C60E4E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8VBMDTT8U4;
 					};
 				};
 			};
@@ -123,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				551A32251D072CC200C60E4E /* LaunchScreen.storyboard in Resources */,
+				551A222E1D0B43140099BDB5 /* Images.xcassets in Resources */,
 				551A32221D072CC200C60E4E /* Assets.xcassets in Resources */,
 				551A32201D072CC200C60E4E /* Main.storyboard in Resources */,
 			);
@@ -135,8 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				551A321D1D072CC200C60E4E /* ViewController.swift in Sources */,
+				551A322D1D076AE900C60E4E /* PlaylistDetailViewController.swift in Sources */,
+				551A321D1D072CC200C60E4E /* PlaylistMasterViewController.swift in Sources */,
 				551A321B1D072CC200C60E4E /* AppDelegate.swift in Sources */,
+				551A22301D0C34880099BDB5 /* MusicLibrary.swift in Sources */,
+				551A22321D0C35C10099BDB5 /* Playlist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +266,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Algorhythm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JamieDaniell.Algorhythm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -260,10 +280,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Algorhythm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JamieDaniell.Algorhythm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -286,6 +309,7 @@
 				551A322B1D072CC200C60E4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
